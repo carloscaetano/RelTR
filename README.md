@@ -20,6 +20,10 @@ Download **RelTR Repo** with:
 git clone https://github.com/yrcong/RelTR.git
 cd RelTR
 ```
+Change to [adaptations_to_run_PF](https://github.com/carloscaetano/RelTR/tree/adaptations_to_run_PF) branch with:
+```
+git checkout adaptations_to_run_PF
+```
 
 ## For Inference
 :smile: It is super easy to configure the RelTR environment.
