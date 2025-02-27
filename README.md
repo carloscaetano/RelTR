@@ -17,7 +17,7 @@ Different from most existing advanced approaches that infer the **dense** relati
 # 1. Installation
 Download **RelTR Repo** with:
 ```
-git clone https://github.com/yrcong/RelTR.git
+git clone https://github.com/carloscaetano/RelTR.git
 cd RelTR
 ```
 Change to [adaptations_to_run_PF](https://github.com/carloscaetano/RelTR/tree/adaptations_to_run_PF) branch with:
@@ -49,9 +49,9 @@ ckpt/checkpoint0149.pth
 ```
 b) Infer the relationships in a folder image with the command:
 ```
-python inference.py --folder_path $FOLDER_PATH --outputfolder $OUTPUTFOLDER --resume $MODEL_PATH
+python inference.py --folder_path $FOLDER_PATH --output_folder $OUTPUTFOLDER --resume $MODEL_PATH
 ```
 c) If necessary to infer with cpu, just pass the device argument:
 ```
-python inference.py --folder_path $FOLDER_PATH --outputfolder $OUTPUTFOLDER --resume $MODEL_PATH --device cpu
+python inference.py --folder_path $FOLDER_PATH --output_folder $OUTPUTFOLDER --resume $MODEL_PATH --device cpu
 ```
